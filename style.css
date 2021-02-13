@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 body {
   background-color: #346eeb;
-  font-family: 'Pokemon';
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;

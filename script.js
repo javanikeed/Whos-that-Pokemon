@@ -7,8 +7,8 @@ button.addEventListener('click', generatePokemon);
 generatePokemon();
 
 function generateId() {
-  const min = 1;
-  const max = 151;
+  const min = 151; /*2nd gen*/
+  const max = 493; /*4th gen*/
   let randomNum = Math.random() * (max - min) + min;
   return Math.floor(randomNum);
 }

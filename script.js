@@ -30,5 +30,5 @@ async function generatePokemon() {
   pokemonName.innerHTML = data.name;
   //console.log(data.types[0].type.name);
   pokemonType.innerHTML = data.types[0].type.name;
-  sprite.src = data.sprites.front_shiny;
+  sprite.src = data.sprites.front_default;
 }

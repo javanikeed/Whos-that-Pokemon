@@ -3,6 +3,7 @@ const pokemonName = document.getElementById('name');
 const button = document.getElementById('pokemonBtn');
 const pokemonType = document.getElementById('type');
 button.addEventListener('click', generatePokemon);
+window.addEventListener('keypress', generatePokemon);
 
 generatePokemon();
 
